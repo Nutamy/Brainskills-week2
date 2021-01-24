@@ -19,15 +19,17 @@ y = 1
 while True:
     try:
         is_factorial = int(input("Enter number for check: "))
-        if is_factorial%x == 0:
-            x += 1
-            y *= x
-            if y == is_factorial:
-                print("Yes! The given number is a factorial of ",x)
+        for t in range(1,is_factorial):
+            if is_factorial%x == 0:
+                x += 1
+                y *= x
+                if y == is_factorial:
+                    print("Yes! The given number is a factorial of ",x)
+                    break
+            elif is_factorial%x >= 1:
+                print("The given number is not a factorial.")
                 break
-        elif is_factorial%x >= 1:
-            print("The given number is not a factorial.")
-            break
+        break
     except:
         print("Enter a number pls.")
         break
