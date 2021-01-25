@@ -1,4 +1,6 @@
 # 1.3.a Дано целое число, не меньше 2. Выведите его наименьший натуральный делитель, отличный от 1
+
+print("The program calculates the smallest divisor of number.")
 given_number = 0
 while given_number < 2:
     given_number = int(input("Enter a number: "))

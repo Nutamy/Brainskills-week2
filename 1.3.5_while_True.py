@@ -32,4 +32,4 @@ while True:
         break
     except:
         print("Enter a number pls.")
-        break
+        continue
