@@ -1,3 +1,5 @@
+# 1.4.1 Вычислить для числа N Сумму S = 1/1+1/2+1/3+...1/n
+
 sumOfFraction = 0
 strSumOfFraction = ""
 n = int(input("Enter n = "))
