@@ -1,10 +1,4 @@
-n = int(input("Enter number to get factorial: "))
-f = 1
-for i in range(1, n+1):
-    f *= i
-x = 1
-y = 1
-print("Factorial ",n," equils ",f)
+# 1.3.5 Является ли введенное число факториалом какого-то числа
 
 
 is_factorial = int(input("Check if a number is a factorial of any number.\nEnter number for check: "))
